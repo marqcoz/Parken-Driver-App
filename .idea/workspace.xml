@@ -12,97 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2d7a46-7e20-4af8-aaa5-a60d6bcc1b01" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/volley/.gitignore" afterPath="$PROJECT_DIR$/volley/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/volley/Android.mk" afterPath="$PROJECT_DIR$/volley/Android.mk" />
-      <change beforePath="$PROJECT_DIR$/volley/bintray.gradle" afterPath="$PROJECT_DIR$/volley/bintray.gradle" />
-      <change beforePath="$PROJECT_DIR$/volley/build.gradle" afterPath="$PROJECT_DIR$/volley/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/volley/build.xml" afterPath="$PROJECT_DIR$/volley/build.xml" />
-      <change beforePath="$PROJECT_DIR$/volley/custom_rules.xml" afterPath="$PROJECT_DIR$/volley/custom_rules.xml" />
-      <change beforePath="$PROJECT_DIR$/volley/pom.xml" afterPath="$PROJECT_DIR$/volley/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/volley/proguard-project.txt" afterPath="$PROJECT_DIR$/volley/proguard-project.txt" />
-      <change beforePath="$PROJECT_DIR$/volley/proguard.cfg" afterPath="$PROJECT_DIR$/volley/proguard.cfg" />
-      <change beforePath="$PROJECT_DIR$/volley/rules.gradle" afterPath="$PROJECT_DIR$/volley/rules.gradle" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/volley/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/AuthFailureError.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/AuthFailureError.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Cache.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Cache.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/CacheDispatcher.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/CacheDispatcher.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ClientError.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ClientError.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/DefaultRetryPolicy.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/DefaultRetryPolicy.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ExecutorDelivery.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ExecutorDelivery.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Network.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Network.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkDispatcher.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkDispatcher.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkError.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkError.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkResponse.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkResponse.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NoConnectionError.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NoConnectionError.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ParseError.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ParseError.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Request.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Request.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/RequestQueue.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/RequestQueue.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Response.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Response.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ResponseDelivery.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ResponseDelivery.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/RetryPolicy.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/RetryPolicy.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ServerError.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ServerError.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/TimeoutError.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/TimeoutError.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/VolleyError.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/VolleyError.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/VolleyLog.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/VolleyLog.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/AndroidAuthenticator.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/AndroidAuthenticator.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/Authenticator.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/Authenticator.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/BasicNetwork.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/BasicNetwork.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ByteArrayPool.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ByteArrayPool.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ClearCacheRequest.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ClearCacheRequest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/DiskBasedCache.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/DiskBasedCache.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpClientStack.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpClientStack.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpHeaderParser.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpHeaderParser.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpStack.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpStack.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HurlStack.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HurlStack.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ImageLoader.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ImageLoader.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ImageRequest.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ImageRequest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonArrayRequest.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonArrayRequest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonObjectRequest.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonObjectRequest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonRequest.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonRequest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/NetworkImageView.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/NetworkImageView.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/NoCache.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/NoCache.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/PoolingByteArrayOutputStream.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/PoolingByteArrayOutputStream.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/RequestFuture.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/RequestFuture.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/StringRequest.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/StringRequest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/Volley.java" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/Volley.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/CacheDispatcherTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/CacheDispatcherTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/NetworkDispatcherTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/NetworkDispatcherTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestQueueIntegrationTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestQueueIntegrationTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestQueueTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestQueueTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/ResponseDeliveryTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/ResponseDeliveryTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockCache.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockCache.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockHttpClient.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockHttpClient.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockHttpStack.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockHttpStack.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockHttpURLConnection.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockHttpURLConnection.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockNetwork.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockNetwork.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockRequest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockRequest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockResponseDelivery.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockResponseDelivery.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/ShadowSystemClock.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/ShadowSystemClock.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/TestRequest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/TestRequest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/WaitableQueue.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/WaitableQueue.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/AndroidAuthenticatorTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/AndroidAuthenticatorTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/BasicNetworkTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/BasicNetworkTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ByteArrayPoolTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ByteArrayPoolTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/CacheTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/CacheTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/DiskBasedCacheTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/DiskBasedCacheTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HttpClientStackTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HttpClientStackTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HttpHeaderParserTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HttpHeaderParserTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HurlStackTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HurlStackTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ImageLoaderTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ImageLoaderTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ImageRequestTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ImageRequestTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/JsonRequestCharsetTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/JsonRequestCharsetTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/JsonRequestTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/JsonRequestTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/NetworkImageViewTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/NetworkImageViewTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/PoolingByteArrayOutputStreamTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/PoolingByteArrayOutputStreamTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestFutureTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestFutureTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestQueueTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestQueueTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ResponseTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ResponseTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/StringRequestTest.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/StringRequestTest.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/utils/CacheTestUtils.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/utils/CacheTestUtils.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/utils/ImmediateResponseDelivery.java" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/utils/ImmediateResponseDelivery.java" />
-      <change beforePath="$PROJECT_DIR$/volley/src/test/resources/org.robolectric.Config.properties" afterPath="$PROJECT_DIR$/volley/src/test/resources/org.robolectric.Config.properties" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/parken/parkenv03/ParkenActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/parken/parkenv03/ParkenActivity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -184,7 +94,18 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ParkenActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parken/parkenv03/ParkenActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1660">
+              <caret line="3613" column="25" lean-forward="false" selection-start-line="3613" selection-start-column="25" selection-end-line="3613" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -3622,13 +3543,14 @@
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58631414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -3655,19 +3577,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Agregar un comentario de prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar un comentario de prueba" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parken/parkenv03/ParkenActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64368">
-          <caret line="3576" column="33" lean-forward="true" selection-start-line="3576" selection-start-column="33" selection-end-line="3576" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parken/parkenv03/ParkenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4081,10 +4001,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ImageLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#620#0" expanded="true" />
+            <element signature="e#2262#2291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/parken/parkenv03/ParkenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="3595" column="33" lean-forward="false" selection-start-line="3595" selection-start-column="33" selection-end-line="3595" selection-end-column="33" />
+        <state relative-caret-position="1660">
+          <caret line="3613" column="25" lean-forward="false" selection-start-line="3613" selection-start-column="25" selection-end-line="3613" selection-end-column="25" />
           <folding />
         </state>
       </provider>
