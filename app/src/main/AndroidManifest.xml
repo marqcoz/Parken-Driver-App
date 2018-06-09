@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.parken.parkenv03">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ParkenActivity"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".CreateActivity"
+            android:label="@string/title_activity_create"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoginActivity22"
+            android:label="@string/title_activity_login" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SettingsActivity2"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".ParkenActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RecoverPasswordActivity"
+            android:label="@string/title_activity_recover_password"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".VehiculoActivity"
+            android:label="@string/title_activity_vehiculo"
+            android:parentActivityName=".ParkenActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AddVehiculoActivity"
+            android:label="@string/title_activity_add_vehiculo"
+            android:parentActivityName=".VehiculoActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ZonaParkenActivity"
+            android:label="@string/title_activity_zona_parken"
+            android:parentActivityName=".ParkenActivity" />
+        <activity
+            android:name=".VerifyActivity"
+            android:parentActivityName=".CreateActivity" />
+        <activity
+            android:name=".InformationActivity"
+            android:parentActivityName=".ParkenActivity" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:parentActivityName=".InformationActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity
+            android:name=".VehiculoInfoActivity"
+            android:label="@string/title_activity_vehiculo_info"
+            android:parentActivityName=".VehiculoActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".SesionParkenActivity"
+            android:parentActivityName=".ParkenActivity" />
+
+        <activity
+            android:name=".AppGPSActivity"
+            android:parentActivityName=".SettingsActivity" />
+
+        <activity
+            android:name=".SancionActivity"
+            android:label="Sanciones"
+            android:parentActivityName=".ParkenActivity"
+            android:theme="@style/AppTheme" />
+
+        <service android:name=".GeofenceParkenBookedTransitionsIntentService" />
+        <service android:name=".GeofenceOnTheWayTransitionsIntentService" />
+        <service
+            android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:name=".SancionPagoActivity"
+            android:label="Pagar sanción"
+            android:parentActivityName=".SancionActivity" />
+
+        <activity android:name=".SesionActivity"
+            android:label="Sesiones Parken"
+            android:parentActivityName=".ParkenActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>

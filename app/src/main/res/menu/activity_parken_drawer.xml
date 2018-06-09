@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_pay_sanction"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pagar sanción" />
+        <item
+            android:id="@+id/nav_cars"
+            android:icon="@drawable/ic_car_nav"
+            android:title="Vehículos" />
+        <item
+            android:id="@+id/nav_pays"
+            android:icon="@drawable/ic_payment_nav"
+            android:title="Métodos de pago" />
+        <item
+            android:id="@+id/nav_session"
+            android:icon="@drawable/ic_park_nav"
+            android:title="Sesiones Parken" />
+
+        <item
+            android:id="@+id/nav_sanction"
+            android:icon="@drawable/ic_ticket_nav"
+            android:title="Sanciones" />
+
+    </group>
+
+    <item>
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_nav"
+                android:title="Configuración" />
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_out_nav"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+</menu>

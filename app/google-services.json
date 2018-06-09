@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "282241071993",
+    "firebase_url": "https://parken-1520827408399.firebaseio.com",
+    "project_id": "parken-1520827408399",
+    "storage_bucket": "parken-1520827408399.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282241071993:android:ff9c8f6a7342adbc",
+        "android_client_info": {
+          "package_name": "com.parken.parkenv03"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282241071993-2p8ddjtansgp6g0h287q25priltmlqq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parken.parkenv03",
+            "certificate_hash": "48c6ac79c105678e24bfa244ac67752b476e51f1"
+          }
+        },
+        {
+          "client_id": "282241071993-2fl1lqoaedcd15rhsu97210ujlsemfav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAErrW08hmA6SQLLgzPBzU5Q5nPy6Wzwo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282241071993-2fl1lqoaedcd15rhsu97210ujlsemfav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
