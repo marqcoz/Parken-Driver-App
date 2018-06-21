@@ -77,7 +77,7 @@ public class SesionActivity extends AppCompatActivity {
         }
         //load_data_from_server(0);
 
-        gridLayoutManager = new GridLayoutManager(this,1);
+        gridLayoutManager = new GridLayoutManager(this,2);
         recyclerView.setLayoutManager(gridLayoutManager);
 
         adapterSesion = new SesionAdapter(this, sesion_list, new SesionAdapter.OnItemClickListener() {

@@ -154,7 +154,7 @@ public class ZonaParkenActivity extends AppCompatActivity implements OnMapReadyC
             @Override
             public void onClick(View view) {
                 //actParken.activityParken.finish();
-                Intent parken = new Intent(ZonaParkenActivity.this,ParkenActivity.class);
+                Intent parken = new Intent(ZonaParkenActivity.this,ParkenActivity.class).setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 parken.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 parken.putExtra("Activity", "ZonaParkenActivity");
                 parken.putExtra("zonasParkenJson", zonaParkenJson);

@@ -22,14 +22,11 @@ public class Jeison {
     //public static String URL_BASE_POST = "http://192.168.1.70:3000/automovilista/sigIn";
     public static final String YOUR_API_KEY = "AIzaSyA15TKW11TMeC60Kmoq4cqgRYryvRsGDQI";
     //public static final String IP = "192.168.1.75";
-    public static final String IP = "192.168.70.198";
-  //  public static final String IP = "192.168.1.111";
-
-      //public static final String IP = "10.4.132.31";
-
-
-    //public static final String IP = "192.168.43.188";
-
+    //public static final String IP = "192.168.1.91";
+    //public static final String IP = "192.168.1.111";
+    //public static final String IP = "10.4.132.31";
+    public static final String IP = "192.168.43.188";
+//Jejejej
     public static final String PORT = ":3000";
     public static final String URL_BASE = "http://" + IP + PORT;
     public static final String URL_LOGIN = URL_BASE + "/login";

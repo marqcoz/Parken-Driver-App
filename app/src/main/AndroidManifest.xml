@@ -18,7 +18,9 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".ParkenActivity"
-            android:launchMode="singleInstance">
+        android:launchMode="singleTask">
+            >
+            <!--android:launchMode="singleInstance">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

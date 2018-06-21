@@ -1789,10 +1789,13 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                             //Log.d("DistanciaZonaParken", distancia);
                             buscarZonaParken(String.valueOf(latitud), String.valueOf(longitud), distancia);
 
+                            return;
+
                         } catch (JSONException e) {
                             e.printStackTrace();
                             showProgress(false);
                             dialogParkenZoneFailed().show();
+                            return;
                         }
                     }
                 },
@@ -1802,6 +1805,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                         Log.d("LoginActivity", "Error Respuesta en JSON: " + error.getMessage());
                         showProgress(false);
                         dialogParkenZoneFailed().show();
+                        return;
                     }
                 }
         );
@@ -1839,7 +1843,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                                 showProgress(false);
                                 find.setVisibility(View.INVISIBLE);
 
-                                Intent zonaparken = new Intent(ParkenActivity.this,ZonaParkenActivity.class);
+                                Intent zonaparken = new Intent(ParkenActivity.this,ZonaParkenActivity.class).setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                                 zonaparken.putExtra("zonaParkenJson", response.getString("ZonasParken"));
                                 zonaparken.putExtra("latitudDestino", latitudDestinoFinal);
                                 zonaparken.putExtra("longitudDestino",longitudDestinoFinal);
@@ -1849,15 +1853,17 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
 
                                 //finish();
 
-
                             }else{
                                 showProgress(false);
                                 dialogNoParkenZone().show();
 
                             }
 
+                            return;
+
                         } catch (JSONException e) {
                             e.printStackTrace();
+                            return;
                         }
                     }
                 },
@@ -1868,6 +1874,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                         //onConnectionFailed(error.getMessage());
                         Log.d("ZonaParken", "Error Respuesta en JSON: " + error.getMessage());
                         dialogParkenZoneFailed().show();
+                        return;
                     }
                 });
 
@@ -1899,9 +1906,10 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                             //latitudDestino = latitud;
                             //longitudDestino = longitud;
                             //buscarZonaParken(String.valueOf(latitud), String.valueOf(longitud), String.valueOf(100000));
-
+                            return;
                         } catch (JSONException e) {
                             e.printStackTrace();
+                            return;
                         }
                     }
                 },
@@ -1911,6 +1919,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                         Log.d("LoginActivity", "Error Respuesta en JSON: " + error.getMessage());
                         showProgress(false);
                         dialogParkenZoneFailed().show();
+                        return;
                     }
                 }
         );
@@ -1944,8 +1953,6 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                                     //apartarEspacioParken(response.getString("id"), response.getString("zona"), session.infoId());
                                     apartarEspacioParken(response.toString(), session.infoId());
 
-
-
                                 }else{
                                     mostrarInfoEspacioParken(response.toString(), PARKEN_SPACE_FOUND);
                                 }
@@ -1957,11 +1964,13 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
 
                             }else{
                                 Log.d("BuscandoEspacioParken", "Espacios no disponibles");
+                                return;
 
                             }
 
                         } catch (JSONException e) {
                             e.printStackTrace();
+                            return;
                         }
                     }
                 },
@@ -1971,6 +1980,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                         Log.d("BuscandoEspacioParken", "Error Respuesta en JSON: " + error.getMessage());
                         //Mostrar el mensaje cuando haya un error en la pantalla del usuario
                         //Ocultar la barra y mostrar la barra indicando error de conexión
+                        return;
                     }
                 });
 
@@ -2051,8 +2061,11 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                                 Log.d("EspacioParken", response.toString());
                             }
 
+                            return;
+
                         } catch (JSONException e) {
                             e.printStackTrace();
+                            return;
                         }
                     }
                 },
@@ -2061,6 +2074,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                     public void onErrorResponse(VolleyError error) {
                         Log.d("ZonaParken", "Error Respuesta en JSON: " + error.getMessage());
                         //Mostrar el mensaje cuando haya un error en la pantalla del usuario
+                        return;
                     }
                 });
 
@@ -2101,10 +2115,13 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
 
                             }
 
+                            return;
+
                         } catch (JSONException e) {
                             e.printStackTrace();
                             showProgress(false);
                             dialogFailed().show();
+                            return;
                         }
                     }
                 },
@@ -2115,6 +2132,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                         Log.d("CrearReporte", "Error Respuesta en JSON: " + error.getMessage());
                         dialogFailed().show();
                         //Mostrar el mensaje cuando haya un error en la pantalla del usuario
+                        return;
                     }
                 });
 
@@ -2148,7 +2166,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                                 Log.d("LimpiarCoordenadasEP", String.valueOf(latitudEspacioParken) + " - " + String.valueOf(longitudEspacioParken));
                                 vista = VIEW_ON_THE_WAY;
                                 selectView(vista, PARKEN_ONNEWINTENT);
-                                return;
+
 
                             }else{
                                 showProgress(false);
@@ -2157,10 +2175,13 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
 
                             }
 
+                            return;
+
                         } catch (JSONException e) {
                             e.printStackTrace();
                             showProgress(false);
                             dialogFailed().show();
+                            return;
                         }
                     }
                 },
@@ -2171,6 +2192,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                         Log.d("EliminarSesion", "Error Respuesta en JSON: " + error.getMessage());
                         dialogFailed().show();
                         //Mostrar el mensaje cuando haya un error en la pantalla del usuario
+                        return;
                     }
                 });
 
@@ -2197,17 +2219,20 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                         Log.d("DesactivarSesionParken", response.toString());
                         try{
                             if(response.getString("success").equals("1")){
-                                return;
+
                             }else{
                                 //Algo salió mal
                                 dialogFailed().show();
-                                return;
+
                             }
+
+                            return;
 
                         } catch (JSONException e) {
                             e.printStackTrace();
                             showProgress(false);
                             dialogFailed().show();
+                            return;
                         }
                     }
                 },
@@ -2218,6 +2243,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                         Log.d("DesactivarSesionParken", "Error Respuesta en JSON: " + error.getMessage());
                         dialogFailed().show();
                         //Mostrar el mensaje cuando haya un error en la pantalla del usuario
+                        return;
                     }
                 });
 
@@ -3535,7 +3561,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
             }
             dialogEPTimeOut().show();
             if(idSesionParken !=null){
-                eliminarSesionParken(idSesionParken);
+               // eliminarSesionParken(idSesionParken);
             }
 
             if(vista.equals(VIEW_PARKEN_SESSION_ACTIVE)){
@@ -3594,8 +3620,7 @@ public class ParkenActivity extends AppCompatActivity implements OnMapReadyCallb
                 //Ordenar el server
                 //Ordenar los print en nodejs
                 //Ordenar la app.
-//THis is a test for cehcking git
-
+                //THis is a test for cehcking git
                 //PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
             }
         }
